@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    background-color: black;
+}
+
+img {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+}
+
+.fadeIn {
+    animation: fadeIn .5s ease forwards;
+}
+
+@keyframes fadeIn {
+    to {
+        transform: translate(0, 0);
+    }
+}
+
+.fadeOut {
+    animation: fadeOut .5s ease forwards;
+}
+
+@keyframes fadeOut {
+    from {
+        transform: scale(1);
+    }
+    50% {
+        opacity: 0.5;
+        transform: scale(1);
+    }
+    to {
+        opacity: 0;
+        transform: scale(2);
+    }
+}
