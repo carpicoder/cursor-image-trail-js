@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -6,13 +8,27 @@
 
 body {
     min-height: 100vh;
-    background-color: black;
+    background-color: #1c1c1c;
+    overflow: hidden;
+    display: grid;
+    place-items: center;
+}
+
+h1 {
+    color: #ececec;
+    font-size: 6rem;
+    text-align: center;
+    font-family: "DM Serif Text", system-ui, sans-serif;
+    width: min-content;
+    line-height: 1;
 }
 
 img {
     position: absolute;
     left: 50%;
     top: 50%;
+    max-width: 400px;
+    max-height: 400px;
 }
 
 .fadeIn {

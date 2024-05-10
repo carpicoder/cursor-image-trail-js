@@ -1,24 +1,10 @@
 const images = [
-    "https://placeholder.pics/svg/200x300/FF5733",
-    "https://placeholder.pics/svg/200x300/DAF7A6",
-    "https://placeholder.pics/svg/200x300/FFC300",
-    "https://placeholder.pics/svg/200x300/FF5733",
-    "https://placeholder.pics/svg/200x300/C70039",
-    "https://placeholder.pics/svg/200x300/581845",
-    "https://placeholder.pics/svg/200x300/00FF7F",
-    "https://placeholder.pics/svg/200x300/FFC300",
-    "https://placeholder.pics/svg/200x300/7FFFD4",
-    "https://placeholder.pics/svg/200x300/FF5733",
-    "https://placeholder.pics/svg/200x300/FFC300",
-    "https://placeholder.pics/svg/200x300/DAF7A6",
-    "https://placeholder.pics/svg/200x300/FF5733",
-    "https://placeholder.pics/svg/200x300/FFC300",
-    "https://placeholder.pics/svg/200x300/DAF7A6",
-    "https://placeholder.pics/svg/200x300/FF5733",
-    "https://placeholder.pics/svg/200x300/FFC300",
-    "https://placeholder.pics/svg/200x300/DAF7A6",
-    "https://placeholder.pics/svg/200x300/FF5733",
-    "https://placeholder.pics/svg/200x300/FFC300"
+    "./img/001.jpg",
+    "./img/002.jpg",
+    "./img/003.jpg",
+    "./img/004.jpg",
+    "./img/005.jpg",
+    "./img/006.jpg",
 ]
 
 
